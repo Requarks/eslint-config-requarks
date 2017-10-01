@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-requarks",
+  "version": "1.0.0",
+  "description": "ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Requarks/eslint-config-requarks.git"
+  },
+  "keywords": [
+    "eslint",
+    "configuration",
+    "linter",
+    "linting",
+    "javascript",
+    "standard"
+  ],
+  "peerDependencies": {
+    "eslint": ">=3.19.0",
+    "eslint-plugin-import": ">=2.2.0",
+    "eslint-plugin-node": ">=4.2.2",
+    "eslint-plugin-promise": ">=3.5.0",
+    "eslint-plugin-standard": ">=3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-node": "^4.2.2",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.0"
+  },
+  "author": "Requarks.io",
+  "license": "MIT"
+}
