@@ -1,0 +1,13 @@
+box: node
+build:
+  steps:
+    - script:
+      name: update npm version
+      code: |
+        npm version patch -m "Updated package version to %s [ci skip]"
+        git push
+    - script:
+        name: publish npm package
+        code: |
+          echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > ~/.npmrc
+          npm publish
