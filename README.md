@@ -10,7 +10,7 @@ You can learn more about [Shareable Configs](http://eslint.org/docs/developer-gu
 To use the JavaScript Standard Style shareable config, first run this:
 
 ```bash
-npm install --save-dev eslint-config-playster eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
+npm install --save-dev eslint-config-requarks eslint-plugin-standard eslint-plugin-promise eslint-plugin-import eslint-plugin-node
 ```
 
 Then, add this to your `.eslintrc` file:
